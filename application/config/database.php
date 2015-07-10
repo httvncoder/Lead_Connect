@@ -41,10 +41,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '127.0.0.1';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'giuliani-enterprises.com';
+$db['default']['username'] = 'leaddev';
+$db['default']['password'] = 'AzraelPwnz92';
+$db['default']['database'] = 'phppos';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'phppos_';
 $db['default']['pconnect'] = FALSE;
