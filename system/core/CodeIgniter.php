@@ -14,6 +14,7 @@
  */
 
 // ------------------------------------------------------------------------
+
 /**
  * System Initialization File
  *
@@ -48,7 +49,6 @@
  * ------------------------------------------------------
  */
 	require(BASEPATH.'core/Common.php');
-output_to_console("CodeIgniter Loaded.");
 
 /*
  * ------------------------------------------------------
@@ -64,7 +64,6 @@ output_to_console("CodeIgniter Loaded.");
 		require(APPPATH.'config/constants.php');
 	}
 
-output_to_console("Loaded framework constants. /constants.php.");
 /*
  * ------------------------------------------------------
  *  Define a custom error handler so we can log PHP errors
@@ -116,7 +115,6 @@ output_to_console("Loaded framework constants. /constants.php.");
 	$BM =& load_class('Benchmark', 'core');
 	$BM->mark('total_execution_time_start');
 	$BM->mark('loading_time:_base_classes_start');
-output_to_console("Start the timer.");
 
 /*
  * ------------------------------------------------------
@@ -144,7 +142,6 @@ output_to_console("Start the timer.");
 	{
 		$CFG->_assign_to_config($assign_to_config);
 	}
-output_to_console("Instantiate config class");
 
 /*
  * ------------------------------------------------------
@@ -220,9 +217,8 @@ output_to_console("Instantiate config class");
  *  Load the Language class
  * ------------------------------------------------------
  */
+	$LANG =& load_class('Lang', 'core');
 
-$LANG =& load_class('Lang', 'core');
-output_to_console("Loaded the language class.");
 /*
  * ------------------------------------------------------
  *  Load the app controller and local controller
@@ -255,7 +251,7 @@ output_to_console("Loaded the language class.");
 
 	// Set a mark point for benchmarking
 	$BM->mark('loading_time:_base_classes_end');
-	output_to_console("Loaded core/Controller.php.");
+
 /*
  * ------------------------------------------------------
  *  Security check
@@ -400,6 +396,7 @@ output_to_console("Loaded the language class.");
 	{
 		$CI->db->close();
 	}
+
 
 /* End of file CodeIgniter.php */
 /* Location: ./system/core/CodeIgniter.php */

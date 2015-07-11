@@ -1,7 +1,7 @@
 <?php
 $lang['module_home']='Home';
 
-$lang['module_customers']='Current Customers';
+$lang['module_customers']='Customers';
 $lang['module_customers_desc']='Add, Update, Delete, and Search customers';
 
 $lang['module_suppliers']='Suppliers';
