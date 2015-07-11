@@ -18,7 +18,6 @@
  *
  */
 	define('ENVIRONMENT', 'production');
-	
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -55,6 +54,19 @@ if (defined('ENVIRONMENT'))
 | when uploading .csv files created on the mac.
 */
 ini_set('auto_detect_line_endings', true);
+
+
+
+/*
+|---------------------------------------------------------------
+| Create Console.Log type function for debugging
+|---------------------------------------------------------------
+|
+| Make sure that php tries to detect line endings. This is important
+| when uploading .csv files created on the mac.
+*/
+
+
 
 /*
  *---------------------------------------------------------------
@@ -200,6 +212,10 @@ ini_set('auto_detect_line_endings', true);
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
+
+
+
+
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
@@ -208,7 +224,11 @@ ini_set('auto_detect_line_endings', true);
  * And away we go...
  *
  */
+
+
+
 require_once BASEPATH.'core/CodeIgniter.php';
+
 
 /* End of file index.php */
 /* Location: ./index.php */

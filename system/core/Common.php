@@ -591,5 +591,23 @@ if ( ! function_exists('html_escape'))
 	}
 }
 
+/*
+|---------------------------------------------------------------
+| Create Console.Log type function for debugging
+|---------------------------------------------------------------
+|
+| Make sure that php tries to detect line endings. This is important
+| when uploading .csv files created on the mac.
+*/
+
+function output_to_console($data) {
+	if(is_array($data))
+	{
+		echo("<script>console.log('PHP: ".implode(',', $data)."');</script>");
+	} else {
+		echo("<script>console.log('PHP: ".$data."');</script>");
+	}
+}
+
 /* End of file Common.php */
 /* Location: ./system/core/Common.php */
