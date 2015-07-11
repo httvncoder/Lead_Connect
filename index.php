@@ -57,15 +57,6 @@ ini_set('auto_detect_line_endings', true);
 
 
 
-/*
-|---------------------------------------------------------------
-| Create Console.Log type function for debugging
-|---------------------------------------------------------------
-|
-| Make sure that php tries to detect line endings. This is important
-| when uploading .csv files created on the mac.
-*/
-
 
 
 /*
