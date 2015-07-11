@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?php echo $this->config->item('company').' -- '.lang('common_powered_by').' PHP Point Of Sale' ?></title>
+    <title><?php echo $this->config->item('company').' -- '.lang('common_powered_by').' Giuliani Enterprises' ?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <base href="<?php echo base_url();?>" />
     <link rel="icon" href="<?php echo base_url();?>favicon.ico" type="image/x-icon"/>
+    <script>console.log("favicon.ico loaded");</script>
+
     <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/bootstrap-3.min.css?<?php echo APPLICATION_VERSION; ?>" />
+    <script>console.log("css/bootstrap-3.min.css loaded");</script>
+
     <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css?<?php echo APPLICATION_VERSION; ?>" />
+    <script>console.log("css/font-awesome.min.css loaded");</script>
+
     <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/unicorn-login.css?<?php echo APPLICATION_VERSION; ?>" />
+    <script>console.log("css/unicorn-login.css loaded");</script>
+
     <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/unicorn-login-custom.css?<?php echo APPLICATION_VERSION; ?>" />
+    <script>console.log("css/unicorn-login-custom.css loaded");</script>
+
     <?php if (is_rtl_lang()){?>
     <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/rtl.css?<?php echo APPLICATION_VERSION; ?>" />
     <?php } ?>
+    <script>console.log("css/rtl.css loaded");</script>
+
     <script src="<?php echo base_url();?>js/jquery.min.js?<?php echo APPLICATION_VERSION; ?>" type="text/javascript" language="javascript" charset="UTF-8"></script>
     <script src="<?php echo base_url();?>js/bootstrap.min.js?<?php echo APPLICATION_VERSION; ?>" type="text/javascript" language="javascript" charset="UTF-8"></script>
+    <script>console.log("js/bootstrap.min.js loaded");</script>
+
 
     <script type="text/javascript">
         $(document).ready(function()

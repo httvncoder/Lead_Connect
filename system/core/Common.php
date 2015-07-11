@@ -603,9 +603,9 @@ if ( ! function_exists('html_escape'))
 function output_to_console($data) {
 	if(is_array($data))
 	{
-		echo("<script>console.log('PHP: ".implode(',', $data)."');</script>");
+		echo("<script>console.log('".implode(',', $data)."');</script>");
 	} else {
-		echo("<script>console.log('PHP: ".$data."');</script>");
+		echo("<script>console.log('".$data."');</script>");
 	}
 }
 
