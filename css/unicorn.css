@@ -2783,7 +2783,7 @@ span.icon .checker {
   margin-top: 40px;
 }
 .amount-word span {
-  color: #5476A6;
+  color: #a62200;
   font-weight: bold;
   padding-left: 20px;
 }
@@ -2947,7 +2947,7 @@ span.icon .checker {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #3498db;
+  background-color: #a10004;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);

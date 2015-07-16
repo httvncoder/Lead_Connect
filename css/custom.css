@@ -175,7 +175,7 @@ body[data-color="grey"].flat #sidebar > ul > li.active
    
 }
 #header{
-	background: #356BA1 !important;
+	background: #a10b00 !important;
  	border-bottom:1px solid #11233B !important;	
 	z-index: 20;
 	height: 50px;
@@ -213,10 +213,10 @@ body[data-color="grey"].flat #sidebar > ul > li.active
   position:relative;
 }
 #footer a {
-  color: #31708f;
+  color: #a10b00;
 }
 #footer a:hover {
-  color: #31708f;
+  color: #a10b00;
 }
 
 #sidebar{
@@ -225,7 +225,7 @@ body[data-color="grey"].flat #sidebar > ul > li.active
 	left:0;
 	top:0;
 	min-height:100%;
-	background:#3C3C3C;
+	background:#a10b00;
 	padding-top:50px;
 	overflow:hidden !important;	
 	transition: width 0.25s ease;
@@ -284,10 +284,10 @@ color: #fff;
 #sidebar.sales_minibar:hover{
 	width:175px !important;	
 }
-
+/*FIND ME*/
 #content-header h1,
 #show_hide_grid_wrapper h1 {
-  color: #356BA1;
+  color: #000000;
   font-size: 30px;
   font-weight: 100;
 }
@@ -311,7 +311,7 @@ color: #fff;
 	padding-left:47px;	
 }
 #content-header{
-	background-color: #F2F2F2 !important;
+	background-color: #a10b00 !important;
 	padding-top: 0;
 	margin-top: 0px;
 	border-top-left-radius: 0 !important;
